@@ -74,8 +74,7 @@ font-weight: 600;}
 .banner{display: flex;
 padding: 0px 20px;
 align-items: center;
-max-width: 1400px;
-margin: 0 auto;}
+margin: auto;}
 
 .banner-description{font-size: 1.25rem;
 font-weight: 400;
@@ -88,10 +87,54 @@ color: #111111;}
   font-size: 1rem;
   font-weight: 600;}
 .last-part{background-color: #01ACFD;
-  max-width: 1400px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 3rem;
+  display: flex;
+ flex-direction: row;
 }
-.footerhead-1{display: flex;}
+.footer-logo{font-weight: 700;
+font-size: 2.634rem;
+color: white;}
+.footer-text{font-weight: 400;
+font-size: 1.25rem;
+color: white;}
+.footerhead-1{display: flex;
+ }
+ .footer-1{ float: left;
+
+  width: 50%;
+ }
+  .footer-col{ float: left;
+
+    width: 25%;
+  }
+.footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-col .links {
+  margin-top: 20px;
+}
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-col .links li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-col .links li a:hover {
+  color: #fff;
+}
+.keep-in-touch{color:white;
+font-weight: 700;
+font-size: 1.265rem;
+ float: left;
+
+width: 25%
+;}
+.tags{display: flex;}
 /* Responsive section */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -134,5 +177,23 @@ color: #111111;}
   flex-direction: column-reverse;
 padding: 0px;
 margin: 10px;
-}}
+}
+.last-part{display: flex;
+flex-direction: column;
+padding: 2rem;}
+.keep-in-touch{color:white;
+  font-weight: 700;
+  font-size: 1.265rem;
+   float: none;
+  
+   width: fit-content
+  ;}
+  .footer-1{ float: none;
+
+    width: fit-content;
+   }
+    .footer-col{ float: none;
+  
+      width: fit-content;
+    }}
 
