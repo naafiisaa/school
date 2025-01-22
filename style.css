@@ -15,13 +15,16 @@ color: #01ACFD;
 .purple-color{color:#5D58EF;
 
 }
-.navbar {
-    max-width: 1400px;
+.navbar { 
+ max-width: 1400px;
     margin: 0 auto;
-    padding: 30px 250px;
+    padding:20px;
     display: flex;
     justify-content: space-between;
    align-items: center;
+
+   
+
   }
   .logo{display: flex;}
   .head {
@@ -31,8 +34,8 @@ color: #01ACFD;
   
   nav ul {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+ align-items: center;
+   
   }
   
   nav li {
@@ -69,7 +72,7 @@ font-weight: 600;}
   font-size: 2.875rem;
 }
 .banner{display: flex;
-padding: 0px 250px;
+padding: 0px 20px;
 align-items: center;
 max-width: 1400px;
 margin: 0 auto;}
@@ -84,8 +87,11 @@ color: #111111;}
   background:#111111;
   font-size: 1rem;
   font-weight: 600;}
-
-
+.last-part{background-color: #01ACFD;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.footerhead-1{display: flex;}
 /* Responsive section */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -122,9 +128,11 @@ color: #111111;}
     font-size: 24px;
     display: flex;
   }
+  .banner-text{text-align: center;}
 .contact-btn{display: none;}
 .banner{display: flex;
   flex-direction: column-reverse;
-
+padding: 0px;
+margin: 10px;
 }}
 
