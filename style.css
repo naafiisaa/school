@@ -21,7 +21,7 @@ color: #01ACFD;
     padding: 30px 250px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   align-items: center;
   }
   .logo{display: flex;}
   .head {
@@ -68,15 +68,28 @@ font-weight: 600;}
   font-weight: 700;
   font-size: 2.875rem;
 }
-.banner{margin: auto;}
+.banner{display: flex;
+padding: 0px 250px;
+align-items: center;
+max-width: 1400px;
+margin: 0 auto;}
+
 .banner-description{font-size: 1.25rem;
 font-weight: 400;
 color: #111111;}
-.enroll-btn{}
+.enroll-btn{color: white;
+  border-radius: 12px;border-color: red;
+  width: 197px;
+  height: 50px;
+  background:#111111;
+  font-size: 1rem;
+  font-weight: 600;}
+
+
 /* Responsive section */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .navbar {
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
   }
   .nav-bar-icon {
@@ -87,7 +100,7 @@ color: #111111;}
     width: 100%;
     position: absolute;
     top: 25px;
-    left: 0px;
+  left: 140px;
 
     flex-direction: column;
     align-items: center;
@@ -109,4 +122,9 @@ color: #111111;}
     font-size: 24px;
     display: flex;
   }
-.contact-btn{display: none;}}
+.contact-btn{display: none;}
+.banner{display: flex;
+  flex-direction: column-reverse;
+
+}}
+
