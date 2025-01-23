@@ -131,6 +131,50 @@ margin: auto;
   background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
  
 }
+/*card section */
+.cards{display: flex;
+justify-content: space-between;
+gap: 2rem;
+padding: 2rem;}
+.card-img{padding-top: 2rem;}
+.card-tittle{font-size: 1.5rem;
+font-weight: 700;}
+.card-d{font-size: 0.943rem;
+font-weight: 500;}
+.card-text{padding: 2rem;}
+.card-end-1{color: #64C8FF;
+font-weight: 700;
+font-size: 0.943rem;}
+.card-end-2{color:#F0AA00;
+  font-weight: 700;
+  font-size: 0.943rem;}
+  .card-end-3{color: #8700FF;
+    font-weight: 700;
+    font-size: 0.943rem;}
+.card-1{box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 1.179rem;
+ text-align: center;
+ 
+  box-shadow: inset 0rem 0rem 1.771rem 0.059rem rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
+  .card-2{box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 1.179rem;
+   text-align: center;
+    box-shadow: inset 0rem 0rem 1.771rem 0.059rem rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
+    .card-3{box-sizing: border-box;
+      border: 0.94px solid rgb(222, 245, 255);
+      border-radius: 1.179rem;
+     text-align: center;
+     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+      box-shadow: inset 0rem 0rem 1.771rem 0.059rem rgba(0, 0, 0, 0.05);
+      }
+      
+    
+/* stories*/
+.our-stories{padding: 2rem;}
 .other{display: flex;
   flex-direction: column;
 gap: 2rem;}
@@ -366,8 +410,14 @@ gap: 2rem;}
   }
   .banner-img{width: 21.036rem
     ;}
+    .cards{display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2rem;
+      padding: 2rem;}
 .story-1{display: none;
 }
+
 .story-btn-2{width: 7rem;
 font-size: x-small;
 position: relative;
@@ -395,9 +445,9 @@ position: relative;
     flex-direction: column;
   gap: 2rem;}
 
-  .story-2{width: 11rem;}
+ 
 
-  .last-part {width: 100%;
+  .last-part {
     display: flex;
     flex-direction: column;
   
