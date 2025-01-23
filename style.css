@@ -27,7 +27,7 @@ body {
 }
 
 .navbar {
-  max-width: 1400px;
+ max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
   display: flex;
@@ -126,11 +126,14 @@ nav li a {
   border-radius: 16px 16px 0px 0px;
 }
 
-.our-stories {max-width: 1400px;
- 
+main {max-width: 1400px;
+margin: auto;
   background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
  
 }
+.other{display: flex;
+  flex-direction: column;
+gap: 2rem;}
 
 .stories {
   display: flex;
@@ -165,7 +168,9 @@ nav li a {
 
 
 
-.story-btn {
+.story-btn {position: relative;
+  top: -1rem;
+  left: 1.875rem;
   border-radius: 2.996rem;
   width: 10.907rem;
   font-size: 1rem;
@@ -175,7 +180,10 @@ nav li a {
   background: rgb(60, 216, 232);
 }
 
-.story-btn-2 {border-color: #95B226;
+.story-btn-2 {position: relative;
+  top: -1rem;
+  left: 1.875rem;
+  border-color: #95B226;
   background-color: #95B226;
   color: white;
   border-radius: 2.996rem;
@@ -183,7 +191,10 @@ nav li a {
   font-size: 1rem;
   font-weight: 500;
 }
-.story-btn-3 {border-color: blue;
+.story-btn-3 {position: relative;
+  top: -1rem;
+  left: 1.875rem;
+  border-color: blue;
   background-color:#5D58F0;
   color: white;
   border-radius: 2.996rem;
@@ -191,7 +202,10 @@ nav li a {
   font-size: 1rem;
   font-weight: 500;
 }
-.story-btn-4{border-color: #95B226;
+.story-btn-4{position: relative;
+  top: -1rem;
+  left: 1.875rem;
+  border-color: #95B226;
   background-color: #95B226;
   color: white;
   border-radius: 2.996rem;
@@ -342,6 +356,7 @@ nav li a {
   .contact-btn {
     display: none;
   }
+  
 
   .banner {
     display: flex;
@@ -351,9 +366,23 @@ nav li a {
   }
   .banner-img{width: 21.036rem
     ;}
-   
-
-.story-1{display: none;}
+.story-1{display: none;
+}
+.story-btn-2{width: 7rem;
+font-size: x-small;
+position: relative;
+  top: -0.5rem;
+  left: 1.875rem;}
+.story-btn-3{width: 7rem;
+  position: relative;
+  top: -0.5rem;
+  left: 1.875rem;
+font-size: x-small;}
+.story-btn-4{width: 6rem;
+font-size: x-small;
+position: relative;
+  top: -0.5rem;
+  left: 1.875rem;}
 .visible{display: flex;
   gap: 2rem;
   justify-content: space-between;}
@@ -362,10 +391,13 @@ nav li a {
     justify-content: space-between;
     display: flex;
   }
+  .other{display: flex;
+    flex-direction: column;
+  gap: 2rem;}
 
   .story-2{width: 11rem;}
 
-  .last-part {
+  .last-part {width: 100%;
     display: flex;
     flex-direction: column;
   
