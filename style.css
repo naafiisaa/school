@@ -270,8 +270,16 @@ gap: 2rem;}
 /* hidden stories */
 .hidden {
   display: none;
+}.done{align-items: center;}
+.arrow{padding:0rem 35rem;
+  display: flex;
+color: white;
+gap: 3rem;
 }
-
+.part-1{background-color: orange;
+  border-radius: 4rem;
+ padding: 2.5rem;
+}
 .visible {
   display: flex;
   gap: 2rem;
@@ -418,6 +426,11 @@ gap: 2rem;}
 .story-1{display: none;
 }
 
+.arrow{padding:0rem 7.5rem;
+  display: flex;
+color: white;
+gap: 3rem;
+}
 .story-btn-2{width: 7rem;
 font-size: x-small;
 position: relative;
